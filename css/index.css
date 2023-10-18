@@ -8,16 +8,18 @@
 header{
     margin-bottom: 30px;
     background-color: orange;
+    position: fixed;
+    top: 0px;
+    z-index: 500;
+    width: 100%;
 }
 
 /*  caratteristiche contenitori generale  */
 
 .contenitore{
-    width: 80%;
+    width: 85%;
     margin: auto;
     display: flex;
-    /* debug */
-    background-color: blueviolet;
 }
 
 /*  caratteristiche contenitore dentro header */
@@ -34,15 +36,14 @@ header nav{
 
 /* inizio main */
 
-main .contenitore{
-    margin-bottom: 20px;
+main {
+   margin: 120px 0;
 }
 
 .items{
     width:calc(100% / 3);
     padding: 0 20px;
     /* debug */
-    background-color: aqua;
     border: 1px solid black;
 }
 
@@ -61,7 +62,7 @@ main .contenitore{
 .sconto{
     position: absolute;
     left: 0px;
-    bottom: 20px;
+    bottom: 40px;
     color: white;
 }
 
