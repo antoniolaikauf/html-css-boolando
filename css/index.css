@@ -1,0 +1,31 @@
+/* stili generali */
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    margin-bottom: 30px;
+    background-color: orange;
+}
+
+/*  caratteristiche contenitori generale  */
+
+.contenitore{
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+/*  caratteristiche contenitore dentro header */
+
+header nav{
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.logo img{
+    height: 40px;
+}
