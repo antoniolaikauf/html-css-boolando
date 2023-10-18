@@ -19,18 +19,13 @@ a{
     text-decoration: none;
 }
 
-/*  caratteristiche contenitori generale  */
+/*  caratteristiche contenitori generale con flex  */
 
 .contenitore{
     width: 85%;
     margin: auto;
     display: flex;
-}
-
-/* caratteristiche tag con  flex */
-
-header nav , footer .contenitore{
-    justify-content: space-between;
+    justify-content:space-between ;
     align-items: center;
     padding: 10px 0;
     color: white;
@@ -54,9 +49,12 @@ main .contenitore{
 /* caratteristiche items dentro main */
 
 .items{
-    width:calc(100% / 3);
+    width:calc(100% / 3 - 20px);
     position: relative;
-    margin: 0px 10px;
+}
+
+main .items:nth-child(2){
+    margin: 0 10px;
 }
 
 /* caratteristiche items div */
