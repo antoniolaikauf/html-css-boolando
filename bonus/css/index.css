@@ -144,3 +144,9 @@ footer{
     width: 100%;
     height: 100%;
 }
+
+/* bonus hover */
+
+.heart:hover i{
+    color: red;
+}
