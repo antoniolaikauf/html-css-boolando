@@ -24,14 +24,19 @@ a{
 .contenitore{
     width: 85%;
     margin: auto;
-    display: flex;
-    justify-content:space-between ;
+    display: flex; 
+}
+
+/*  caratteristiche contenitore dentro header */
+
+header nav , footer .contenitore{
+    justify-content: space-between;
     align-items: center;
     padding: 10px 0;
     color: white;
 }
 
-/*  caratteristiche contenitore dentro header */
+
 .logo img{
     height: 40px;
 }
@@ -71,6 +76,7 @@ main .items:nth-child(2){
     padding: 10px;
     background-color: white;
     z-index: 400;
+    color: black;
 }
 
 .sconto{
