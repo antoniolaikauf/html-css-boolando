@@ -56,9 +56,6 @@ main .contenitore{
 .items{
     width:calc(100% / 3 - 20px);
     position: relative;
-}
-
-main .items:nth-child(2){
     margin: 0 10px;
 }
 
