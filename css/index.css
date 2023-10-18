@@ -7,7 +7,7 @@
 
 header{
     margin-bottom: 30px;
-    background-color: orange;
+    background-color: #e96b05;
     position: fixed;
     top: 0px;
     z-index: 500;
@@ -22,14 +22,15 @@ header{
     display: flex;
 }
 
-/*  caratteristiche contenitore dentro header */
+/* caratteristiche tag con  flex */
 
-header nav{
+header nav , footer .contenitore{
     justify-content: space-between;
     align-items: center;
     padding: 10px 0;
 }
 
+/*  caratteristiche contenitore dentro header */
 .logo img{
     height: 40px;
 }
@@ -40,13 +41,20 @@ main {
    margin: 120px 0;
 }
 
+main .contenitore{
+    margin-bottom: 20px;
+}
+
+/* caratteristiche items dentro main */
+
 .items{
     width:calc(100% / 3);
     padding: 0 20px;
-    /* debug */
-    border: 1px solid black;
 }
 
+/* caratteristiche items div */
+
+/* inizio caratteristiche items div sopra */
 .sopra-items{
     position: relative;
 }
@@ -71,6 +79,8 @@ main {
    
 }
 
+/* sconti prodotti */
+
 .rosso{
     background-color: red;
     margin-right: 5px;
@@ -80,4 +90,28 @@ main {
 .verde{
     background-color: green;
     padding: 3px;
+}
+
+/*  inizio caratteristiche sotto items */
+
+.sotto-items strong{
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.prezzo{
+    color: red;
+}
+
+.opaco{
+    color: rgba(0, 0, 0, 0.539);
+}
+
+/* footer */
+footer{
+    background-color: black;
+    color: white;
+}
+
+.trovarci div{
+    margin: 5px 0;
 }
