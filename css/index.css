@@ -105,8 +105,9 @@ main .contenitore{
 
 /*  inizio caratteristiche sotto items */
 
-.sotto-items strong{
+.sotto-items strong, h3{
     font-family: 'Bebas Neue', sans-serif;
+    text-transform: uppercase;
 }
 
 .prezzo{
