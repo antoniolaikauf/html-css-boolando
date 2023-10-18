@@ -16,6 +16,8 @@ header{
     width: 80%;
     margin: auto;
     display: flex;
+    /* debug */
+    background-color: blueviolet;
 }
 
 /*  caratteristiche contenitore dentro header */
@@ -28,4 +30,30 @@ header nav{
 
 .logo img{
     height: 40px;
+}
+
+/* inizio main */
+
+main .contenitore{
+    margin-bottom: 20px;
+}
+
+.items{
+    width:calc(100% / 3);
+    padding: 0 20px;
+    /* debug */
+    background-color: aqua;
+    height: 200px;
+    border: 1px solid black;
+}
+
+.sopra-items{
+    /* debug */
+    height: 80%;
+    background-color: blue;
+}
+.sotto-items{
+    /* debug */
+    height: 20%;
+    background-color: bisque;
 }
