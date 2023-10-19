@@ -102,13 +102,6 @@ main .contenitore{
     padding: 3px;
 }
 
-/* rosso nascosto nella 6 card */
-
-.nascosto{
-    position: absolute;
-    z-index: -1;
-}
-
 /*  inizio caratteristiche sotto items */
 
 .sotto-items strong, h3{
@@ -150,3 +143,7 @@ footer{
     width: 100%;
     height: 100%;
 }
+
+
+/* consigli dati dare all'immagine nascosta display none e quando vai sopra con hover dire
+ a questa immagine display inline -block e alla prima immagine dire display none */
